@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+  <div class="menu">
+    <button id="two-players-btn">Két játékos</button>
+    <button id="one-player-btn">Egy játékos</button>
+  </div>
+
+  <div class="game-board">
+    <div class="board">
+      <div class="row">
+        <button class="cell" data-index="0"></button>
+        <button class="cell" data-index="1"></button>
+        <button class="cell" data-index="2"></button>
+      </div>
+      <div class="row">
+        <button class="cell" data-index="3"></button>
+        <button class="cell" data-index="4"></button>
+        <button class="cell" data-index="5"></button>
+      </div>
+      <div class="row">
+        <button class="cell" data-index="6"></button>
+        <button class="cell" data-index="7"></button>
+        <button class="cell" data-index="8"></button>
+      </div>
+    </div>
+    <div class="game-info">
+      <p id="status"></p>
+      <button id="new-game-btn" style="display: none;">Új játék</button>
+    </div>
+  </div>
+
+  <script src="tictactoe.js"></script>
+</body>
+</html>
